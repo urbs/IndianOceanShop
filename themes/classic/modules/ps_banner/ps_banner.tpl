@@ -22,10 +22,19 @@
  * @copyright Since 2007 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
-<a class="banner" href="{$banner_link}" title="{$banner_desc}">
-  {if isset($banner_img)}
-    <img src="{$banner_img}" alt="{$banner_desc}" title="{$banner_desc}" class="img-fluid">
-  {else}
-    <span>{$banner_desc}</span>
-  {/if}
-</a>
+ {* urbain 2021.09.23 banner *}
+
+<div class="container"> 
+  <div class="row">
+    <div class="col-xs-12">
+      <a class="banner" href="{$banner_link}" title="{$banner_desc}">
+        {if isset($banner_img)}
+          <img src="{$banner_img}" alt="{$banner_desc}" title="{$banner_desc}" class="img-fluid">
+        {else}
+          <span>{$banner_desc}</span>
+        {/if}
+      </a>
+    </div>
+  </div>
+</div>
+
