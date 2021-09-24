@@ -10891,3 +10891,15 @@ input[type="number"]::-webkit-outer-spin-button {
 #.col-xs-6 {width: 50%!important;}
 #header .header-top a[data-depth="0"] {color: #333333;text-transform: none;font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;font-size: 0.8rem;line-height: 1.1rem;padding: .5rem .9rem;border-right: 1px #cfcfcf solid;}
 #header a {color: #fff;}
+
+.featured-products .all-product-link {
+    display: flex!important; 
+    flex-direction: row!important; 
+}
+.featured-products .all-product-link:before, 
+.featured-products .all-product-link:after { 
+content: ""!important; 
+flex: 1 1!important; 
+border-bottom: 0.5px solid #000!important; 
+margin: auto!important; 
+} 
