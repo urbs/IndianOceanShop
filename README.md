@@ -1,2 +1,2 @@
-# IndianOceanShop
-Idian ocean shop Project
+# Scent Indian Ocean Shop
+Scent Indian Ocean Shop
